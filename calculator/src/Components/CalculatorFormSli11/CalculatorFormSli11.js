@@ -10,7 +10,8 @@ function CalculatorFormSli11(props){
             <div className="col-4">
             <select className="form-select" id="operation" onChagne={props.update}>
                 <option selected>Please select an operation</option>
-
+                <option value="add">+</option>
+                <option value="minus">-</option>
             </select>
             </div>
             <div className="col-4">
