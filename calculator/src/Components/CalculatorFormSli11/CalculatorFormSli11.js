@@ -8,7 +8,7 @@ function CalculatorFormSli11(props){
                 <input type="text" className="form-control-plaintext" id="operand1" onChange={props.update}/>
             </div>
             <div className="col-4">
-            <select className="form-select" id="operation" onChagne={props.update}>
+            <select className="form-select" id="operation" onChange={props.update}>
                 <option selected>Please select an operation</option>
                 <option value="add">+</option>
                 <option value="minus">-</option>
